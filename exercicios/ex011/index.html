@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias HTML</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir este site em varios dispositivos ou simplesmente aumente e diminua a tela
+    </p>
+<picture>
+    <source media="(max-width:750px )" srcset="imagens/foto-p.png.png">
+    <source media="(max-width:1050px)" srcset="imagens/foto-m.png.png" type="image/png">
+<img src="imagens/foto-g.png.png" alt="imagem flexivel">
+</picture>
+
+<h1>reproduzir áudio</h1>
+<p>vamos aprender a reproduzir áudios em html5 </p>
+
+<audio preload="metadata" autoplay controls loop>
+ <source src="midia/Moonlight Sonata (by Beethoven) - Beethoven.mp3" type="audio/mpeg">   
+</audio>
+<p>caso seu navegador nao consiga reproduzir audio <a href="midia/Moonlight Sonata (by Beethoven) - Beethoven.mp3">clique aqui para baixa-lo</a></p>j
+
+</body>
+</html>
