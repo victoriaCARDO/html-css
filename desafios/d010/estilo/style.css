@@ -55,12 +55,14 @@ header > p{
    color:white; 
    font-size: 1.2em;
    font-size:var(--fonte-padrao);
-   max-width:500px;
+   max-width:600px;
    padding-right: 10px;
    padding-left: 10px;
    margin-bottom: 200px;
    margin:auto;
+   padding-bottom: 300px;
    font-family: var(--font-destaque);
+   text-shadow: 2px 2px 0px #000000  (0,0,0) ;
 }
 
 nav{
