@@ -5,11 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela</title>
+
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        body>h1{
+            
+        }
+        table{
+          width:400px;
+          border-collapse: collapse;
+        
+          
+        }
+        td{
+            border: 1px solid black;
+            padding:8px;
+        }
+
+        tr.linha{
+            background:grey;
+        }
+        td.dado{
+            background:yellow;
+        }
+
+       
+
+    </style>
+    
+
 </head>
 <body>
-    <h1>minha primeira tabela</h1>
+    <h1>Minha primeira tabela</h1>
     <table>
-        
+        <tr class="linha"> 
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <TR>
+            <TD>A2</TD>
+            <td>B2</td>
+            <td>C2</td>
+        </TR>
+        <tr>
+            <td>A3</td>
+            <td class="dado">B3</td>
+            <td>C3</td>
+        </tr>
     </table>
 </body>
 </html>
