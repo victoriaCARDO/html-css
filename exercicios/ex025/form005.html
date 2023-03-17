@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com formulário 5</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+            <label for="imasculino"><input type="radio" name="sexo" id="imasculino" value="M">Masculino</label> <br>
+
+            <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino" value="F">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Espotes favoritos</legend>
+
+            <label for="ifut"><input type="checkbox" name="fut" id="ifut"> Futebol <br></label>
+
+            <label for="ivolei"><input type="checkbox" name="vólei" id="ivolei"> Vólei<br></label>
+
+            <label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete">Basquete<br></label>
+
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="submeter">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+    </form>
+    
+</body>
+</html>
